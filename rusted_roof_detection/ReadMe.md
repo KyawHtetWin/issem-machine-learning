@@ -10,6 +10,10 @@ Rust on roofs is not just a cosmetic issue; it can lead to severe structural pro
 ## Approach
 The project uses the ResNet architecture, a renowned model in computer vision, to classify images of roofs into rusted or non-rusted categories. The images for training and testing were sourced from Duck Duck Go.
 
+## Dataset Size
+- Training: 48 images
+- Testing: 12 images
+
 ## Results
 - The model attained an accuracy of 91% on the test dataset after five training iterations.
 - This initial success showcases the model's potential in automating and improving roof inspection processes.
