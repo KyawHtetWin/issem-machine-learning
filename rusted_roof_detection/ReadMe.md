@@ -1,4 +1,4 @@
-# Detecting Roof Rust with Machine Learning
+# Detecting Rust on the Roof
 
 ## Overview
 In this notebook, I build a machine learning model to identify roofs corroded with rust. This is a quick prototype to see what's possible by adapting the ResNet model for rust detection, and the results
