@@ -47,11 +47,11 @@ There are two notebooks you can follow along:
 
 Even though the model achieved above 99% accuracy in classifying emotions, I wouldn't take this metric at face value mainly because the test data size is pretty small. However, it's more instructive to look at where the model is making mistakes. Let's see the confusion matrix. 
 
-![Confusion Matrix](confusion_matrix.jpg]
+![Confusion Matrix](confusion_matrix.jpg)
 
 From this, we see that the model often confuses pleasantly surprise with happy and disgust while it confuses fear with sadness. Indeed, these are emotions that are fairly close to each other. Looking at the spectograms where the model goes wrong also show this:
 
-![Misclassification][misclassification.jpng]
+![Misclassification](misclassification.jpg)
 
 Overall, this model shows really promising results. 
 
