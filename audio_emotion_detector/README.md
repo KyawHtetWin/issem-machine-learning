@@ -7,7 +7,7 @@ In this project, I take a novel apporach to build a computer vision model, adapt
 
 Note: The application can become inactive after some time. Below you see an example of the app correctly providing its prediction on an audio recodrings. 
 
-[Gradio App Example](gradio_app.jpg)
+![Gradio App Example](gradio_app.jpg)
 
 ## Dataset
 
