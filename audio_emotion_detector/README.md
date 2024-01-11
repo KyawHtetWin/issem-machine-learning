@@ -5,7 +5,7 @@ There are many applications where recognizing emotions from the audio can be hel
 
 In this project, I take a novel apporach to build a computer vision model, adapting ResNet, for the classification of emotions from audio recordings.Moreover, I also deployed the model as a web application available where you can upload your audio to detect the emotions in it [Hugging Space](https://huggingface.co/spaces/kyawhtetpaingwin111/audio_emotion_detector). 
 
-Note: The application can become inactive after some time. Below you see an example of the app correctly providing its prediction on an audio recodrings. 
+Note: The application can become inactive after some time. Below you see an example of the app correctly providing its prediction on an audio recodring saying the word "wife" in disgust. 
 
 ![Gradio App Example](gradio_app.jpg)
 
@@ -43,5 +43,18 @@ There are two notebooks you can follow along:
 2. Librosa: Audio Data Processing 
 3. Gradio/Hugging Face: Web Application development
 
-## Result
+## Result & Discussion
 
+Even though the model achieved above 99% accuracy in classifying emotions, I wouldn't take this metric at face value mainly because the test data size is pretty small. However, it's more instructive to look at where the model is making mistakes. Let's see the confusion matrix. 
+
+![Confusion Matrix](confusion_matrix.jpg]
+
+From this, we see that the model often confuses pleasantly surprise with happy and disgust while it confuses fear with sadness. Indeed, these are emotions that are fairly close to each other. Looking at the spectograms where the model goes wrong also show this:
+
+![Misclassification][misclassification.jpng]
+
+Overall, this model shows really promising results. 
+
+## Next Step:
+
+I would want to get more data to test on and train further if necessary. 
