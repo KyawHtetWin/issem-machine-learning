@@ -3,9 +3,11 @@
 ## Overview
 There are many applications where recognizing emotions from the audio can be helpful (Examples: Interactive voice AI, mental healthcare, and customer call satisfaction).
 
-In this project, I take a novel apporach to build a computer vision model, adapting ResNet, for the classification of emotions from audio recordings.Moreover, I also deployed the model as a web application available where you can upload your audio to detect the emotions in it.[Hugging Space](https://huggingface.co/spaces/kyawhtetpaingwin111/audio_emotion_detector). 
+In this project, I take a novel apporach to build a computer vision model, adapting ResNet, for the classification of emotions from audio recordings.Moreover, I also deployed the model as a web application available where you can upload your audio to detect the emotions in it [Hugging Space](https://huggingface.co/spaces/kyawhtetpaingwin111/audio_emotion_detector). 
 
-Note: The application can become inactive after some time. 
+Note: The application can become inactive after some time. Below you see an example of the app correctly providing its prediction on an audio recodrings. 
+
+[Gradio App Example](gradio_app.jpg)
 
 ## Dataset
 
