@@ -13,6 +13,12 @@ Below is the portrait of the authors:
 
 All the papers are found in a directory called federalist-papers and are further processed into two JSON files for model development. 
 
+# Main Libraries
+
+1. LangChain: Loading and preparing the dataset
+2. HuggingFace: Processing and training the model
+3. Sklearn: Evaluation and metrics
+
 # Fine-Tuning the Model and Evaluation
 
 The papers are broken down into smaller chunks to fit the input size of the model. In the end, the model's final prediction of the author is taken as the mode of all the labels across these chunks. 
@@ -27,4 +33,4 @@ Below is the summary of the model verdict.
 
 ![results](result.png)
 
-
+For details, check out the notebook.
