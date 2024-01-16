@@ -33,4 +33,4 @@ Below is the summary of the model verdict.
 
 ![results](result.png)
 
-For details, check out the notebook.
+For details, check out the ![notebook](federalist_paper_authorship.ipynb).
